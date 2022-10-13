@@ -1,5 +1,7 @@
 package studio4;
 
+import java.awt.Color;
+
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
@@ -29,33 +31,57 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(4, 3, 4, 16);
+		StdDraw.setPenColor(Color.white);
+		StdDraw.filledRectangle(11, 3, 4, 16);
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(18, 3, 4, 16);
 		
-		// TODO
 	}
 
 	public static void indonesia() {
+		StdDraw.setPenColor(255,0,0);
+		StdDraw.filledRectangle(11,12,11,4);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(11,4,11,4);
 		
-		// TODO
 	}
 
 	public static void netherlands() {
-		
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(11, 3.5, 16, 4);
+		StdDraw.setPenColor(Color.white);
+		StdDraw.filledRectangle(11, 9.5, 16, 4);
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11, 14.5, 16, 4);
 		// TODO
 	}
 
 	public static void poland() {
-		
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(11,12,11,4);
+		StdDraw.setPenColor(255,0,0);
+		StdDraw.filledRectangle(11,4,11,4);
 		// TODO
 	}
 
 	public static void thailand() {
-		
+		StdDraw.filledRectangle(11, 8, 22, 16);
+		StdDraw.setPenColor(Color.white);
+		StdDraw.filledRectangle(11, 8, 22, 6);
+		StdDraw.setPenColor(0,0,127);
+		StdDraw.filledRectangle(11, 8, 22, 3);
 		// TODO
 	}
 
 	public static void finland() {
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(11, 8, 22, 16);
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(11, 8, 11, 2);
+		StdDraw.filledRectangle(8, 8, 2, 8);
 		
-		// TODO
 	}
 
 	public static void main(String[] args) {
